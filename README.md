@@ -1,2 +1,2 @@
-# ShrriBalajiMetalTech.com
+# ShriBalajiMetalTech.com
 A aluminium and iron trading firm
