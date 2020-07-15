@@ -1,2 +1,2 @@
 # ShriBalajiMetalTech.com
-A aluminium and iron trading firm
+An aluminium and iron scrap trading firm
