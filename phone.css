@@ -1,0 +1,17 @@
+/*body{
+	background-color: red;
+}*/
+/*making images responsive for different screens*/
+#Products .images{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+#Products .stylepic { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+    width: 55vh;
+}

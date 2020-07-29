@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Trial</title>
+
+	<style type="text/css">
+		.container{
+            display: grid;
+            grid-template-areas: 
+            'item item item'
+            'item item item';
+            grid-gap: 2rem;
+		}
+		.item{
+			height: 300px;
+			width: 30%;
+			border:2px solid green;
+		}
+		@media (max-width:375px){
+			.item{
+				background-color: red;
+				display:block;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item">item1</div>
+		<div class="item">item2</div>
+		<div class="item">item3</div>
+		<div class="item">item4</div>
+		<div class="item">item5</div>
+		<div class="item">item6</div>
+	</div>
+
+</body>
+</html>

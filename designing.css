@@ -1,0 +1,72 @@
+     html{
+     	scroll-behavior: smooth;
+     }
+     /*.nav-items:hover{
+      	color: #28a745;
+      }*/
+     /* nav a -SBMT */
+     #a1:hover{
+     	font-weight:bold;
+     	transform: rotate(90deg);
+     }
+     /*Product Section*/
+     #Products{
+    
+     	background-image: linear-gradient(to top right,#e6e6e6,white); 
+     }
+     /*class for bundle image*/
+     .img1{
+     	
+     	width: 350px;
+     }
+     /*class of container for products images*/
+     .images{  
+     	display: flex;
+        margin-top: 30px;
+        margin-left:60px;
+        margin-right:60px;
+      }
+    /*Class of products images */
+      .stylepic{
+        width:30%;
+        height: 300px;
+        margin: 2%;
+        opacity: 1;
+        transition: .5s ease;
+        
+      }
+      /*class created to make hover effect on images of products section*/
+      .middle1{
+      	transition: .5s ease;
+      	opacity: 0;
+      	position: absolute;
+      	top: 50%;
+      	left: 50%;
+      	text-align: center;
+      	z-index: 4;
+      	transform: translate(-50%, -50%);
+      	-ms-transform:translate(-50%, -50%);
+      }
+      .images:hover .stylepic{
+      	opacity: 0.8;
+      }
+      .images:hover .middle1{
+      	opacity: 1;
+      
+      }
+      /*class for text in products images after hover*/
+      .text1{
+      	color: black;
+      	font-size: 16px;
+      }
+      /*.images::after{
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      	right: 0;
+      	bottom: 0;
+      	background-color: rgba(0,0,0,0.8);
+      	transition: .3s all ease;
+      	opacity: 0;
+      	visibility: hidden;
+      }*/
