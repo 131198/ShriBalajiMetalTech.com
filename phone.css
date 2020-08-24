@@ -5,8 +5,8 @@
 html{
 	scroll-behaviour:smooth;
 }
-.d-none{
-	display:inline-block;
+.d-none {
+    display: block;
 }
 #Products .images{
 	display: flex;
